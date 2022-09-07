@@ -2,7 +2,7 @@
 <h4>This project is a restaurant application and is designed for a simple restaurant harmony. Those who want to come to the restaurant can easily make a reservation.</h4>
  <h4>Star ⭐ the repo if you like what you see 😉 </h4>
  <div>
- <h2>İçecek Listesi</h2>
+ <h2>Libraries Used</h2>
  <ul>
    <li>Design UI -> Figma</li>
    <li>State Management -> Provider</li>
