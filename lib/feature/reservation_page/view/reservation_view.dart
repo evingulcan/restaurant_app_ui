@@ -8,8 +8,8 @@ import 'package:restaurant_app/feature/reservation_page/viewModel/reservation_vi
 import 'package:restaurant_app/products/component/menu_title_card.dart';
 import 'package:restaurant_app/products/component/reservation_categories.dart';
 import 'package:restaurant_app/products/component/menu_title.dart';
-import 'package:restaurant_app/products/component/person_dateTime_widget.dart';
-import 'package:restaurant_app/products/component/reservation_appBar.dart';
+import 'package:restaurant_app/products/component/person_date_time_widget.dart';
+import 'package:restaurant_app/products/component/reservation_appbar.dart';
 import 'package:restaurant_app/products/component/reservation_info.dart';
 import 'package:restaurant_app/products/component/reservation_title.dart';
 import 'package:restaurant_app/products/component/reservation_title_card.dart';
