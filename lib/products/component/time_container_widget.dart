@@ -90,7 +90,7 @@ class TimeWidget extends StatelessWidget {
       child: Center(
           child: Text(
         time,
-        style: Theme.of(context).textTheme.headline6?.copyWith(
+        style: Theme.of(context).textTheme.titleLarge?.copyWith(
               color: AppColors.white,
             ),
       )),

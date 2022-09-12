@@ -26,7 +26,7 @@ class ReservationCard extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: Theme.of(context).textTheme.headline6?.copyWith(
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         color: AppColors.black,
                         fontWeight: FontWeight.w600,
                       ),

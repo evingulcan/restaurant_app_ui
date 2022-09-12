@@ -4,7 +4,7 @@ import 'package:restaurant_app/core/constants/app_colors.dart';
 import 'package:restaurant_app/feature/login_register_page/viewModel/login_view_model.dart';
 
 class AuthTextField extends StatefulWidget {
-  AuthTextField({
+  const AuthTextField({
     Key? key,
     required this.controller,
     required this.hintText,
@@ -17,7 +17,7 @@ class AuthTextField extends StatefulWidget {
   final TextEditingController controller;
   final String hintText;
 
-  bool? isObsecure;
+  final bool? isObsecure;
   final VoidCallback changeObscureCallBack;
   final String? Function(String?)? validator;
 
@@ -35,7 +35,7 @@ class _AuthTextFieldState extends State<AuthTextField> {
           validator: widget.validator,
           decoration: InputDecoration(
             hintText: widget.hintText,
-            hintStyle: Theme.of(context).textTheme.headline6?.copyWith(
+            hintStyle: Theme.of(context).textTheme.titleLarge?.copyWith(
                   color: AppColors.silverlined,
                   fontWeight: FontWeight.w600,
                 ),

@@ -21,7 +21,7 @@ class AppBarWidget extends StatelessWidget {
           StringConstant.back,
           style: Theme.of(context)
               .textTheme
-              .headline6
+              .titleLarge
               ?.copyWith(color: color, fontWeight: FontWeight.bold),
         ),
       ],

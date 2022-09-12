@@ -26,7 +26,7 @@ class ReviewsCard extends StatelessWidget {
             backgroundColor: AppColors.blueMetallic.withOpacity(0.4),
             child: Text(
               StringConstant.dl,
-              style: Theme.of(context).textTheme.headline6?.copyWith(
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: AppColors.white,
                     fontWeight: FontWeight.bold,
                   ),

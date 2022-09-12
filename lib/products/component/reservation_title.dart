@@ -30,7 +30,7 @@ class ReservationCategoryItem extends StatelessWidget {
             ),
             Text(
               StringConstant.book,
-              style: Theme.of(context).textTheme.headline6?.copyWith(
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: AppColors.outoftheblue,
                     fontWeight: FontWeight.bold,
                   ),
@@ -40,7 +40,7 @@ class ReservationCategoryItem extends StatelessWidget {
             ),
             Text(
               StringConstant.timestoday,
-              style: Theme.of(context).textTheme.headline6?.copyWith(
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: AppColors.outoftheblue,
                     fontWeight: FontWeight.bold,
                   ),

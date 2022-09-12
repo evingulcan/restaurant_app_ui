@@ -29,12 +29,12 @@ class NotificationCard extends StatelessWidget {
               children: [
                 Text(
                   _model.title,
-                  style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.darkGrey, fontWeight: FontWeight.bold),
                 ),
                 Text(
                   _model.text,
-                  style: Theme.of(context).textTheme.bodyText2?.copyWith(
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: AppColors.darkGrey, fontWeight: FontWeight.bold),
                 ),
                 Row(

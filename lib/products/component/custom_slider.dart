@@ -3,9 +3,9 @@ import 'package:kartal/kartal.dart';
 import 'package:restaurant_app/core/extensions/extension.dart';
 
 class CustomSlider extends StatelessWidget {
-  double percentage;
+  final double percentage;
 
-  CustomSlider({
+  const CustomSlider({
     Key? key,
     required this.percentage,
   }) : super(key: key);

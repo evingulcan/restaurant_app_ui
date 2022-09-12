@@ -52,7 +52,7 @@ class FavoriteCard extends StatelessWidget {
                         _model.point,
                         style: Theme.of(context)
                             .textTheme
-                            .subtitle2
+                            .titleSmall
                             ?.copyWith(color: AppColors.white),
                       ),
                     ),
