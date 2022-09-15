@@ -82,7 +82,7 @@ class _CategoriesState extends State<Categories> {
                     widget.onChanged(index);
                   },
                   style: TextButton.styleFrom(
-                      primary: widget.selectedIndex == index
+                      foregroundColor: widget.selectedIndex == index
                           ? AppColors.poppypower
                           : AppColors.chanceofrain),
                   child: Text(

@@ -28,7 +28,7 @@ class ReviewsCategoryItem extends StatelessWidget {
               padding: context.paddingNormalVertical,
               child: Text(
                 title,
-                style: Theme.of(context).textTheme.headline6?.copyWith(
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
                       color: AppColors.black,
                       fontWeight: FontWeight.w600,
                     ),
@@ -42,17 +42,18 @@ class ReviewsCategoryItem extends StatelessWidget {
                   children: [
                     Text(
                       StringConstant.rating,
-                      style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
                             color: AppColors.black,
                             fontWeight: FontWeight.bold,
                           ),
                     ),
                     Text(
                       StringConstant.ratingNum,
-                      style: Theme.of(context).textTheme.headline4?.copyWith(
-                            color: AppColors.black,
-                            fontWeight: FontWeight.bold,
-                          ),
+                      style:
+                          Theme.of(context).textTheme.headlineMedium?.copyWith(
+                                color: AppColors.black,
+                                fontWeight: FontWeight.bold,
+                              ),
                     ),
                     Row(
                       children: [

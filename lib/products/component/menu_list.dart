@@ -21,7 +21,7 @@ class MenuList extends StatelessWidget {
           icon: _model.icon,
           label: Text(
             _model.title,
-            style: Theme.of(context).textTheme.headline6?.copyWith(
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   color: AppColors.white,
                 ),
           ),

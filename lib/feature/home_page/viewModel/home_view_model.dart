@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:restaurant_app/feature/home_page/model/category_model.dart';
 import 'package:restaurant_app/feature/home_page/model/favorite_model.dart';
 import 'package:restaurant_app/feature/home_page/model/menu_draw_model.dart';
-import 'package:restaurant_app/feature/home_page/model/open_Rest_model.dart';
+import 'package:restaurant_app/feature/home_page/model/open_rest_model.dart';
 
 class HomeViewModel extends ChangeNotifier {
   late final List<CategoryModel> _catItem = CategoryItems().items;

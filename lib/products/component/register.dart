@@ -24,7 +24,7 @@ class _RegisterComponentState extends State<RegisterComponent> with Validation {
             padding: context.pagePaddingLetfTopRigth,
             child: Text(
               StringConstant.registerText,
-              style: Theme.of(context).textTheme.headline4?.copyWith(
+              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
             )),
         SizedBox(
@@ -71,7 +71,7 @@ class _RegisterComponentState extends State<RegisterComponent> with Validation {
                       child: Text(
                         StringConstant.continu,
                         textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.headline6?.copyWith(
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
                               color: AppColors.white,
                               fontWeight: FontWeight.bold,
                             ),

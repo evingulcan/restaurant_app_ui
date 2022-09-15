@@ -24,7 +24,7 @@ class _LoginComponentState extends State<LoginComponent> with Validation {
             padding: context.pagePaddingLetfTopRigth,
             child: Text(
               StringConstant.loginText,
-              style: Theme.of(context).textTheme.headline4?.copyWith(
+              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
             )),
         SizedBox(
@@ -40,7 +40,7 @@ class _LoginComponentState extends State<LoginComponent> with Validation {
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Text(
                 StringConstant.emailText,
-                style: Theme.of(context).textTheme.headline6?.copyWith(
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
                       color: AppColors.silverlined,
                       fontWeight: FontWeight.w600,
                     ),
@@ -78,7 +78,7 @@ class _LoginComponentState extends State<LoginComponent> with Validation {
                             StringConstant.continu,
                             style: Theme.of(context)
                                 .textTheme
-                                .headline6
+                                .titleLarge
                                 ?.copyWith(
                                     color: AppColors.white,
                                     fontWeight: FontWeight.bold),

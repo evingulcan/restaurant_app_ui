@@ -21,7 +21,7 @@ class RestaurantInfo extends StatelessWidget {
             StringConstant.istanbul,
             style: Theme.of(context)
                 .textTheme
-                .headline4
+                .headlineMedium
                 ?.copyWith(color: AppColors.blueMetallic),
           ),
           Row(
@@ -40,7 +40,7 @@ class RestaurantInfo extends StatelessWidget {
               ),
               Text(
                 StringConstant.reviews3,
-                style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.silverlined,
                       fontWeight: FontWeight.bold,
                     ),
@@ -61,7 +61,7 @@ class RestaurantInfo extends StatelessWidget {
               ),
               Text(
                 StringConstant.under,
-                style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.silverlined,
                       fontWeight: FontWeight.bold,
                     ),
@@ -75,7 +75,7 @@ class RestaurantInfo extends StatelessWidget {
               ),
               Text(
                 StringConstant.turk,
-                style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.silverlined,
                       fontWeight: FontWeight.bold,
                     ),
@@ -93,7 +93,7 @@ class RestaurantInfo extends StatelessWidget {
               ),
               Text(
                 StringConstant.adres,
-                style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.silverlined,
                       fontWeight: FontWeight.bold,
                     ),

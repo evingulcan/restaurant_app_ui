@@ -10,7 +10,7 @@ import 'package:restaurant_app/feature/profile_page/viewModel/profil_view_model.
 import 'package:restaurant_app/products/component/category_widget.dart';
 import 'package:restaurant_app/products/component/favorit_widget.dart';
 import 'package:restaurant_app/products/component/menu_list.dart';
-import 'package:restaurant_app/products/component/openRest_widget.dart';
+import 'package:restaurant_app/products/component/open_rest_widget.dart';
 import 'package:restaurant_app/products/widgets/bottom_navbar.dart';
 
 class HomePage extends StatefulWidget {
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage>
                 ),
                 Text(
                   StringConstant.favrestaurat,
-                  style: Theme.of(context).textTheme.headline5?.copyWith(
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                       color: AppColors.blueMetallic,
                       fontWeight: FontWeight.bold),
                 ),
@@ -214,13 +214,13 @@ class _HomePageState extends State<HomePage>
       children: [
         Text(
           StringConstant.open,
-          style: Theme.of(context).textTheme.headline5?.copyWith(
+          style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
         ),
         Row(children: [
           Text(
             StringConstant.delvery,
-            style: Theme.of(context).textTheme.headline6?.copyWith(
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 color: AppColors.california, fontWeight: FontWeight.bold),
           ),
           const Icon(Icons.keyboard_arrow_down_rounded,
@@ -237,7 +237,7 @@ class _HomePageState extends State<HomePage>
           padding: context.likePadding,
           child: Text(
             StringConstant.likeEat,
-            style: Theme.of(context).textTheme.headline4?.copyWith(
+            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
           ),
         ),
@@ -288,9 +288,12 @@ class _HomePageState extends State<HomePage>
                     Consumer(builder: ((context, value, child) {
                       return Text(
                         '${context.read<ProfileViewModel>().loggedInUser.fullName}',
-                        style: Theme.of(context).textTheme.headline5?.copyWith(
-                            color: AppColors.white,
-                            fontWeight: FontWeight.bold),
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineSmall
+                            ?.copyWith(
+                                color: AppColors.white,
+                                fontWeight: FontWeight.bold),
                       );
                     }))
                   ],

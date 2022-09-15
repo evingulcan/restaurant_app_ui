@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:restaurant_app/core/constants/app_string.dart';
 import 'package:restaurant_app/feature/home_page/view/home_view.dart';
-import 'package:restaurant_app/feature/login_Register_Page/model/users_model.dart';
 import 'package:restaurant_app/products/widgets/text_form_field.dart';
+
+import '../../feature/login_register_page/model/users_model.dart';
 
 final fullNameEditingController = TextEditingController();
 final emailEditingController = TextEditingController();

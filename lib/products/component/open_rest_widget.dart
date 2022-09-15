@@ -3,7 +3,7 @@ import 'package:kartal/kartal.dart';
 import 'package:restaurant_app/core/constants/app_colors.dart';
 import 'package:restaurant_app/core/constants/app_string.dart';
 import 'package:restaurant_app/core/extensions/extension.dart';
-import 'package:restaurant_app/feature/home_page/model/open_Rest_model.dart';
+import 'package:restaurant_app/feature/home_page/model/open_rest_model.dart';
 
 class OpenRestWidget extends StatelessWidget {
   const OpenRestWidget({Key? key, required OpenRestModel model})
@@ -28,7 +28,7 @@ class OpenRestWidget extends StatelessWidget {
               children: [
                 Text(
                   _model.title,
-                  style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.blueMetallic,
                       fontWeight: FontWeight.bold),
                 ),
@@ -54,7 +54,7 @@ class OpenRestWidget extends StatelessWidget {
                           _model.text,
                           style: Theme.of(context)
                               .textTheme
-                              .headline6
+                              .titleLarge
                               ?.copyWith(
                                   color: AppColors.white,
                                   fontWeight: FontWeight.bold),
@@ -73,7 +73,7 @@ class OpenRestWidget extends StatelessWidget {
                 const Icon(Icons.location_on_outlined, color: Colors.black26),
                 Text(
                   StringConstant.addresText,
-                  style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       color: AppColors.black.withOpacity(0.2),
                       fontWeight: FontWeight.bold),
                 ),

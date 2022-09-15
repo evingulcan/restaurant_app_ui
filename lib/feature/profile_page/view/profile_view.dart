@@ -53,7 +53,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 builder: ((context, value, child) {
                   return Text(
                     '$name',
-                    style: Theme.of(context).textTheme.headline5?.copyWith(
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         color: AppColors.blueMetallic,
                         fontWeight: FontWeight.bold),
                   );
@@ -61,7 +61,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
               Text(
                 StringConstant.united,
-                style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     color: AppColors.silverlined, fontWeight: FontWeight.bold),
               ),
               Container(
@@ -71,7 +71,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 child: Center(
                     child: Text(
                   StringConstant.edit,
-                  style: Theme.of(context).textTheme.bodyText2?.copyWith(
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: AppColors.blueMetallic,
                       fontWeight: FontWeight.bold),
                 )),
@@ -92,7 +92,7 @@ class _ProfilePageState extends State<ProfilePage> {
         children: [
           Text(
             StringConstant.review,
-            style: Theme.of(context).textTheme.headline5?.copyWith(
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
           ),
           SizedBox(
@@ -110,7 +110,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   children: [
                     Text(
                       StringConstant.hello,
-                      style: Theme.of(context).textTheme.headline6?.copyWith(
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
                           color: AppColors.blueMetallic,
                           fontWeight: FontWeight.bold),
                     ),
@@ -118,9 +118,10 @@ class _ProfilePageState extends State<ProfilePage> {
                       width: context.dynamicWidth(0.8),
                       child: Text(
                         StringConstant.text,
-                        style: Theme.of(context).textTheme.subtitle1?.copyWith(
-                              color: AppColors.silverlined,
-                            ),
+                        style:
+                            Theme.of(context).textTheme.titleMedium?.copyWith(
+                                  color: AppColors.silverlined,
+                                ),
                       ),
                     ),
                     SizedBox(
@@ -138,7 +139,7 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                       Text(
                         StringConstant.number,
-                        style: Theme.of(context).textTheme.headline6?.copyWith(
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
                             color: AppColors.darkGrey,
                             fontWeight: FontWeight.bold),
                       ),
@@ -164,7 +165,7 @@ class _ProfilePageState extends State<ProfilePage> {
         children: [
           Text(
             StringConstant.admin,
-            style: Theme.of(context).textTheme.headline5?.copyWith(
+            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 color: AppColors.blueMetallic, fontWeight: FontWeight.bold),
           ),
           SizedBox(
@@ -208,7 +209,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   )),
               Text(
                 StringConstant.back,
-                style: Theme.of(context).textTheme.headline6?.copyWith(
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: AppColors.white, fontWeight: FontWeight.bold),
               ),
             ],

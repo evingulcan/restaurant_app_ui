@@ -36,7 +36,7 @@ class FavoritePage extends StatelessWidget {
                 children: [
                   Text(
                     StringConstant.recomendation,
-                    style: Theme.of(context).textTheme.headline5?.copyWith(
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         color: AppColors.blueMetallic,
                         fontWeight: FontWeight.bold),
                   ),
@@ -80,7 +80,7 @@ class FavoritePage extends StatelessWidget {
             StringConstant.order,
             style: Theme.of(context)
                 .textTheme
-                .headline6
+                .titleLarge
                 ?.copyWith(color: AppColors.white, fontWeight: FontWeight.bold),
           ),
         ),
